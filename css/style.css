@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+a {
+    border: 8px solid aliceblue;
+    padding: 8px 8px 8px 35px;
+    text-align: center;
+    transition: 0.5s;
+    animation-timing-function: ease-in;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+a:hover {
+    background: aliceblue;
+    color: #000;
+}
+
+.example {
+    position: relative;
+}
+
+.header::before,
+.eat::before,
+.music::before,
+.movie::before{
+    background: -webkit-gradient(linear, left top, right bottom, from(rgba(0, 0, 0, .3)), color-stop(0.25, rgba(0, 0, 0, .3)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(0, 0, 0, .4)), color-stop(0.75, rgba(0, 0, 0, .4)), color-stop(0.75, transparent), to(transparent));
+    background: -moz-linear-gradient(-45deg, rgba(0, 0, 0, .3)25%, transparent 25%, transparent 50%, rgba(0, 0, 0, .3)50%, rgba(0, 0, 0, .3)75%, transparent 75%, transparent);
+    background: linear-gradient(-45deg, rgba(0, 0, 0, .3)25%, rgba(0, 0, 0, 0)25%, rgba(0, 0, 0, 0)50%, rgba(0, 0, 0, .3)50%, rgba(0, 0, 0, .3)75%, rgba(0, 0, 0, 0)75%, rgba(0, 0, 0, 0));
+    background-size: 4px 4px;
+    content: "";
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.header {
+    background-image: url(../img/okou.jpeg);
+    height: 825px;
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    position: relative;
+}
+
+.header h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    color: aliceblue;
+    font-size: 200px;
+    font-family: 'Titillium Web', sans-serif;
+    /*文字の装飾は省略*/
+    letter-spacing: 29px;
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.header img {
+    width: 100%;
+}
+
+.eat {
+    background-image: url(../img/eat.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 800px;
+    margin: 50px;
+    -webkit-background-size: cover;
+    background-size: cover;
+    position: relative;
+}
+
+.eat h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    color: aliceblue;
+    font-size: 200px;
+    font-family: 'Titillium Web', sans-serif;
+    letter-spacing: 29px;
+    font-size: 70px;
+    font-weight: 400;
+}
+
+.music {
+    background-image: url(../img/music.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 800px;
+    margin: 50px;
+    -webkit-background-size: cover;
+    background-size: cover;
+    position: relative;
+}
+
+.music h2 {
+    position: absolute;
+    top: 50%;
+    
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    color: aliceblue;
+    font-size: 200px;
+    font-family: 'Titillium Web', sans-serif;
+    letter-spacing: 29px;
+    font-size: 70px;
+    font-weight: 400;
+}
+
+.eiga {
+    background-image: url(../img/eiga.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 800px;
+    margin: 50px;
+    -webkit-background-size: cover;
+    background-size: cover;
+    position: relative;
+}
+
+.eiga h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    color: aliceblue;
+    font-size: 200px;
+    font-family: 'Titillium Web', sans-serif;
+    letter-spacing: 29px;
+    font-size: 70px;
+    font-weight: 400;
+}
+
+.artist h1{
+    text-align: center;
+    letter-spacing: 10px; 
+} 
+
+.artist iframe{
+    padding-left: 20px;
+    
+}
+
+.box4{
+    padding: 8px 19px;
+    margin: 2em 0;
+    color: #2c2c2f;
+    background: #ccd1d8;
+    border-top: solid 5px #47525d;
+    border-bottom: solid 5px #47525d;
+}
+.box4 p {
+    display: block;
+    margin: 0px auto;
+
+}
+
+.movie body{
+    background-color: black;
+}
+
+ .food h1{
+    font-size: 60px;
+   position: absolute;
+    left: 40%;
+    letter-spacing:20px;
+}
+
+.box5{
+    margin: 0 auto;
+    position: center;
+    width: 1200px;
+    margin: 50px 50px;
+    position: absolute; 
+}
+
+.meal{
+     height: 600px;
+    background-size: 300px;
+    background-repeat: no-repeat;
+    margin-left:95px;
+    position: relative;
+    background-position: left;
+}
