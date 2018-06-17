@@ -162,6 +162,15 @@ a:hover {
     letter-spacing: 10px; 
 } 
 
+.artist h2{
+    text-align: center;
+    letter-spacing: 10px;
+    font-size: 50px;
+    margin: 30px auto;
+    width: 170px;
+    
+}
+
 .artist iframe{
     padding-left: 20px;
     
